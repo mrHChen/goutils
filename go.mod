@@ -1,4 +1,4 @@
-module goutils
+module github.com/mrHChen/goutils
 
 go 1.18
 
