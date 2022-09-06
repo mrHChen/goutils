@@ -126,7 +126,7 @@ func (c *Client) Run() error {
 		return err
 	}
 
-	url, err := url.Parse(c.options.rtspAddress)
+	url, err := url.Parse(c.options.RtspAddress)
 	if err != nil {
 		c.Println("Address resolution error: %s", err)
 		return err

@@ -126,7 +126,7 @@ func (cc *ClientConn) connOpen() error {
 	cc.Conn, err = net.DialTimeout(
 		cc.c.TransType.String(),
 		cc.host,
-		cc.c.options.timeout,
+		cc.c.options.Timeout,
 	)
 	if err != nil {
 		log.Println(fmt.Errorf(" Failed to set up the %s link:%s", cc.c.TransType.String(), err))

@@ -264,10 +264,10 @@ func (p *Pusher) Start() {
 			if rtp := ParseRTP(packBuffer); rtp != nil && p.isKeyframe(rtp) {
 				p.gopCache = make([]*RTPPack, 0)
 				payload := make([]byte, 0)
-				if p.Client.options.isEncrypt {
+				if p.Client.options.IsEncrypt {
 					payload = p.Client.EncryptPack(rtp.Payload[2:], uint16(rtp.SequenceNumber))
 				}
-				if p.Client.options.isDecode {
+				if p.Client.options.IsDecode {
 					payload = p.Client.DecodePack(rtp.Payload[2:])
 				}
 				rtp.Payload = append(rtp.Payload[:2], payload...)
