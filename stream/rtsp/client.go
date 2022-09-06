@@ -52,17 +52,17 @@ type ClientOptions struct {
 	// 是否打印debug日志
 	Debug bool
 	// rtsp地址
-	rtspAddress string
+	RtspAddress string
 	// 推流自定义地址
 	CustomPath string
 	// 代理商
 	Agent string
 	// 超时
-	timeout time.Duration
+	Timeout time.Duration
 	// 是否加密
-	isEncrypt bool
+	IsEncrypt bool
 	// 是否解密
-	isDecode bool
+	IsDecode bool
 }
 
 // NewRTSPClient 创建 rtsp 客户端实例
