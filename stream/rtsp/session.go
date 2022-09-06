@@ -16,9 +16,8 @@ import (
 	"sync"
 	"time"
 
-	"goutils/stream/base"
-	"goutils/stream/headers"
-
+	"github.com/mrHChen/goutils/stream/base"
+	"github.com/mrHChen/goutils/stream/headers"
 	"github.com/teris-io/shortid"
 )
 

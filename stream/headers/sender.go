@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strings"
 
-	"goutils/stream/base"
-	"goutils/stream/utils"
+	"github.com/mrHChen/goutils/stream/base"
+	"github.com/mrHChen/goutils/stream/utils"
 )
 
 // Sender allows to generate credentials for a Validator.

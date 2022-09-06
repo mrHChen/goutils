@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"goutils/stream/base"
-	"goutils/stream/utils"
+	"github.com/mrHChen/goutils/stream/base"
+	"github.com/mrHChen/goutils/stream/utils"
 )
 
 // Session is a Session header.

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"goutils/stream/utils"
+	"github.com/mrHChen/goutils/stream/utils"
 )
 
 // StatusCode is the status code of a RTSP response.

@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"goutils/stream/utils"
+	"github.com/mrHChen/goutils/stream/utils"
 )
 
 const (

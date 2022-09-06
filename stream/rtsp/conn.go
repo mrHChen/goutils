@@ -11,9 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"goutils/stream/base"
-	"goutils/stream/headers"
-
+	"github.com/mrHChen/goutils/stream/base"
+	"github.com/mrHChen/goutils/stream/headers"
 	"github.com/pixelbender/go-sdp/sdp"
 )
 

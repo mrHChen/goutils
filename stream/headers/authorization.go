@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"goutils/stream/base"
+	"github.com/mrHChen/goutils/stream/base"
 )
 
 // Authorization is an Authorization header.

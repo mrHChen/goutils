@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"goutils/stream/utils"
+	"github.com/mrHChen/goutils/stream/utils"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"goutils/stream/base"
-	"goutils/stream/utils"
+	"github.com/mrHChen/goutils/stream/base"
+	"github.com/mrHChen/goutils/stream/utils"
 )
 
 // AuthMethod 认证方式

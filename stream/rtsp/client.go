@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"goutils/stream/common"
-	"goutils/stream/utils"
+	"github.com/mrHChen/goutils/stream/common"
+	"github.com/mrHChen/goutils/stream/utils"
 )
 
 // Client rtsp 客户端 C
